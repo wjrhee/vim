@@ -2,9 +2,7 @@ execute pathogen#infect()
 
 filetype on
 syntax on
-colorscheme Tomorrow-Night
 
-set lines=35 columns=150
 set colorcolumn=100
 set number
 set hidden
@@ -30,4 +28,3 @@ noremap <Leader>r :CommandTFlush<CR>
 let mapleader=" "
 map <leader>s :source ~/.vimrc<CR>
 
-let g:gitgutter_sign_column_always=1
